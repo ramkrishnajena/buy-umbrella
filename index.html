@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Buy You Umbrella</title>
+  </head>
+  <body>
+    <main>
+      <div class="left-section">
+        <img
+          src="./assets/Pink umbrella.png"
+          alt="umbrella"
+          id="product-image"
+        />
+        <img
+          src="./assets/loader_icon.svg"
+          alt="umbrella"
+          class="loader-icon loader"
+          style="display: none"
+        />
+        <img src="#" id="brand-logo" style="display: none" />
+      </div>
+      <div class="right-section">
+        <h2>Custom Umbrella</h2>
+        <ul class="right-section__colors">
+          <li class="color--pink color-btn" id="pink"></li>
+          <li class="color--blue color-btn" id="blue"></li>
+          <li class="color--yellow color-btn" id="yellow"></li>
+        </ul>
+        <div class="right-section__upload">
+          <h3>Customize your umbrella</h3>
+          <p>Upload a logo for an instant preview.</p>
+          <span>.png and .jpg files only. Max file size is 5MB.</span>
+          <div class="upload--btn">
+            <img src="./assets/upload_icon.svg" id="upload-icon" />
+            <img
+              src="./assets/loader_icon.svg"
+              style="display: none"
+              class="upload-loader-icon loader"
+            />
+            <button class="btn">UPLOAD LOGO</button>
+            <input type="file" id="imageFile" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
